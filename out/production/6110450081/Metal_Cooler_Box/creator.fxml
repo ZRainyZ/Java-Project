@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="448.0" prefWidth="652.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Metal_Cooler_Box.Creator">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="448.0" fitWidth="652.0">
+         <image>
+            <Image url="@../../resources/images/pastel.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="creatorImage" fitHeight="244.0" fitWidth="229.0" layoutX="14.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/images/user.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="290.0" layoutY="28.0" prefHeight="51.0" prefWidth="256.0" text="Creator Information">
+         <font>
+            <Font name="System Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="99.0" prefHeight="51.0" prefWidth="370.0" text="ชื่อ-นามสกุล : นายณัฏฐ์ฑิพัฒณ์ อิทธิชัยชาญ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="163.0" prefHeight="43.0" prefWidth="370.0" text="รหัสนิสิต : 6110450081">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="277.0" prefHeight="51.0" prefWidth="370.0" text="สาขา : วิทยาการคอมพิวเตอร์">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="218.0" prefHeight="59.0" prefWidth="370.0" text="คณะ : วิทยาศาสตร์">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="328.0" prefHeight="51.0" prefWidth="370.0" text="คำคม : ปล่อยพลังได้  แต่อย่าปล่อย F" textFill="#141414">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
